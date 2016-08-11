@@ -1,0 +1,106 @@
+/*Tipo de letra*/
+*{
+	font-family: 'Lato', sans-serif;
+}
+	/*Colores de letra*/
+.text-gris{ /* .Gris{ Cris. Al nombrar clases y/o id'ś se debe tomar en cuenta la función del elemento y no estén relacionados con su aspecto o su posición */
+	color: #989898;
+}  
+.text-gris2{ /* .Grisoscuro{ Cris. Añadiendo al comentario anterior, las clases no deben iniciar con letra mayuscula, si la clase tiene
+				dos palabras y estan juntas, la primera letra de la segunda palabra si es mayuscula*/
+	color: #4d4545;
+}
+.text-celeste{ /* .Celeste{ Cris. Siguiendo las recomendaciones anteriores para nombrar clases*/
+	color: #28c5e6;
+} 
+.text-orange{ /* .Anaranjado{ Cris. Siguiendo las recomendaciones anteriores para nombrar clases*/
+	color: #ff6a49;
+}  
+.Verde{
+	color: #77d248;
+} 
+.Amarillo{
+	color: #ffc200;
+} 
+	
+	/*Tamaño de letra*/
+.font1{
+	font-size: 1em;
+}
+.font2{
+	font-size: 1.5em;
+}
+.font3{
+	font-size: 2em;
+}
+.font4{
+	font-size: 3em;
+}
+	/*Alinear*/
+.text-left{ /* .izq Cris. Nuevo nombre siguiendo las recomendaciones iniciales */
+	text-align: left;
+}
+.text-right{ /* .der Cris. Nuevo nombre siguiendo las recomendaciones iniciales */
+	text-align: right;
+}
+.text-center{ /* Cris. Nueva clase de alineación al centro para ahorrar lineas*/
+	text-align: center;
+}
+	/*Imagenes*/
+}
+img{
+	display: block;
+	margin: auto;
+}
+	/*parrafos*/
+/* p{
+	text-align: center;
+}* Cris. Elimino esta clase porque ya cree una clase que me alinea al centro/
+	/* Cris. Paddings*/
+.pd-5{
+	padding: 5%;
+}
+.pd-10{
+	padding: 10%;
+}
+	/*Margenes*/
+.mt0{ /* Cris. Creacion de margin 0, puede ayudar en los fondos*/
+	margin: 0;
+}	
+.mt5{
+	margin-top: 5%;
+}	
+.mt10{
+	margin-top: 10%;
+}
+.mb5{
+	margin-bottom: 5%;
+}
+.mb10{
+	margin-bottom: 10%;
+}
+	/*botones*/
+button{
+	display: block;
+	margin: auto;
+	padding: 2%;
+	border-radius: 20%;
+}
+	/*Secciones*/
+section{
+	width: 100%;
+}	
+	/*Encabezados*/
+h1{
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	font-size: 2.5em;
+}
+h2{
+	text-align: center;
+	margin-bottom: 5%;
+}
+h3{
+	text-align: center;
+}
